@@ -1,4 +1,8 @@
-# admin-project
+# admin-project vue2 vueX3 vueRouter3
+
+https://v3.vuex.vuejs.org/
+https://v3.router.vuejs.org/
+yarn nodeJS > 14 ->16
 
 This template should help get you started developing with Vue 3 in Vite.
 
