@@ -1,0 +1,69 @@
+@import "layouts";
+@import "custom";
+body::-webkit-scrollbar {
+  width: 0.5em;
+}
+
+body::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 6px rgba(111, 69, 69, 0.3);
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: darkgrey;
+  outline: 1px solid slategrey;
+  transform: scaleY(1.5);
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #5f5d5d;
+}
+.breadcrumb-layout {
+  display: flex;
+  justify-content: space-between;
+  background-color: #ffffff;
+  padding: 10px 15px;
+  margin-bottom: 12px
+}
+.ql-tooltip.ql-editing.ql-flip {
+  left: 703.5px !important;
+  top: 19.5px !important;
+}
+.ql-toolbar.ql-snow {
+  background-color: #8080800f;
+}
+.ant-select-disabled .ant-select-selection {
+  opacity: 1;
+  color: black;
+  border: 1px solid #d9d9d9;
+}
+input.ant-input.ant-input-disabled {
+  opacity: 1;
+  color: black;
+  border: 1px solid #d9d9d9;
+}
+textarea.ant-input.ant-input-disabled {
+  opacity: 1;
+  color: black;
+  border: 1px solid #d9d9d9;
+}
+.required::before {
+  display: inline-block;
+  margin-right: 4px;
+  color: #f5222d;
+  font-size: 14px;
+  font-family: SimSun, sans-serif;
+  line-height: 1;
+  content: '*';
+}
+.label-cus {
+  color: rgba(0, 0, 0, 0.85);
+  display: block;
+  margin: 0;
+  padding: 0 0 8px;
+  line-height: 1.5;
+  white-space: initial;
+  text-align: left;
+
+}
+.ant-switch-checked {
+  background-color: #52C41A!important;
+}
